@@ -1,0 +1,42 @@
+# Predictive Regression Model using Scikit-Learn and PyCaret
+
+## Project Overview
+
+This project develops a predictive regression model to estimate the "Selling_Price" based on different factors. We leverage the power of scikit-learn and PyCaret, two of the most popular machine learning libraries in Python, to preprocess data, select features, train models, and evaluate performance.
+
+### Objectives
+
+- To preprocess and analyze the dataset for regression analysis.
+- To select the most significant features affecting the "Selling_Price".
+- To compare multiple regression models and select the best performer based on different metrics (MSE, RMSE, etc).
+- To fine-tune the model parameters for optimal performance.
+- etc.
+
+## Dataset
+
+The dataset used for our regression models is public and can be found in the Kaggle datasets section (https://www.kaggle.com/datasets/nehalbirla/vehicle-dataset-from-cardekho).
+
+### Features
+
+- **Age**: [Age of the vehicule]
+- **Present_Price**: [Present price for the vehicule]
+- **Kms_Driven**: [Kilometers driven using the car]
+- **Fuel_Type**: [Fuel type : Diesel or Petrol or CNG]
+- **Seller_Type**: [Seller type : Dealer or individual]
+- **Transmission**: [Transmission : Manual or Automatic]
+- **Owner**: [Owner of the car]
+
+### Target Variable
+
+- **[Selling_Price]**: [Description]
+
+## Installation
+
+This project is executed using Python 3.12 and the following Python libraries:
+
+- NumPy
+- Pandas
+- scikit-learn
+- PyCaret
+- matplotlib (for data visualization)
+- seaborn (for data visualization)
