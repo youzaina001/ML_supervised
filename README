@@ -32,7 +32,7 @@ The dataset used for our regression models is public and can be found in the Kag
 
 ## Installation
 
-This project is executed using Python 3.12 and the following Python libraries:
+This project is executed using Python 3.11 and the following Python libraries:
 
 - NumPy
 - Pandas
@@ -40,3 +40,10 @@ This project is executed using Python 3.12 and the following Python libraries:
 - PyCaret
 - matplotlib (for data visualization)
 - seaborn (for data visualization)
+- etc.
+
+To run the jupyter notebook in a container, follow the steps below:
+
+- build the docker image using the provided dockerfile by running the command "docker build -t regression ."
+- run a container using the image you just created by running the command "docker run -p 8888:8888 regression"
+- to access your virtual environment, use the link obtained via the command line.
