@@ -2,9 +2,9 @@
 FROM python:3.11-slim
 
 # Install necessary system dependencies
-#RUN apt-get update && apt-get install -y \
-#    libgomp1 \
-#    && rm -rf /var/lib/apt/lists/*
+RUN apt-get update && apt-get install -y \
+    libgomp1 \
+    && rm -rf /var/lib/apt/lists/*
 
 # Set the working directory in the container
 WORKDIR /usr/src/app
